@@ -1,4 +1,4 @@
-{% set version = "0.10.8" %}
+{% set version = "0.11.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/taxonomizr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/taxonomizr/taxonomizr_{{ version }}.tar.gz
-  sha256: bbe1bfa4c13ef2f86579ec46a1233d649e9d7f040a2324ec48e8c72884956a35
+  sha256: 4aa09a0275976cf52b2e2356b0006228d8e20977b29e36ebfcc18fe2f8154a1a
 
 build:
   number: 0
